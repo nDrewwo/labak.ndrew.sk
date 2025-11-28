@@ -1,0 +1,47 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Blog"
+pageRef = "/blog"
+identifier = "tncZarVndM"
+weight = 2
+
+[[main]]
+name = "Labs"
+pageRef = "/labs"
+identifier = "wiiVwvuw7G"
+weight = 1
+
+[[main]]
+name = "About"
+pageRef = "About"
+identifier = "bWGY6bYpnq"
+weight = 4
+
+[[main]]
+name = "Projects"
+pageRef = "/projects"
+identifier = "grgCgWXTNA"
+weight = 3
+
+[[footer]]
+none = "none"
+
+[[footer]]
+name = "Standards"
+pageRef = "/standards"
+identifier = "oZRFxVQNbe"
+weight = 1
+
+[[footer]]
+name = "Authors"
+pageRef = "/authors"
+identifier = "Cbv7CmM7N9"
+weight = 3
+
+[[footer]]
+name = "Guides"
+pageRef = "/guides"
+identifier = "WO73i1P9Ej"
+weight = 9_999

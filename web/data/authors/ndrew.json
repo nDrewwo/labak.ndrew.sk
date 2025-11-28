@@ -1,0 +1,10 @@
+{
+    "name": "ndrew",
+    "image" : "https://cdn.ndrew.sk/hackerspace/pfps/ndrew.png",
+    "bio": ":3",
+    "social": [
+        { "email": "mailto:ndrew@ndrew.sk" },
+        { "discord": "https://discord.gg/sHDnFHnt5q" },
+        { "github": "https://github.com/nDrewwo" }
+    ]
+}
