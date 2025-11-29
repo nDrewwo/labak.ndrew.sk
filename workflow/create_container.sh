@@ -182,6 +182,11 @@ if [ "$IPV6" = "dhcpv6" ]; then
     cmd+=(--env DHCPV6=1)
 fi
 
+# ---- Disable SLAAC/autoconf so RA doesn't add a second IPv6 ----
+if [ "$DISABLE_IPV6" -eq 0 ] && [ "${IPV6:-}" != "dhcpv6" ]; then
+    cmd+=(--sysctl "net.ipv6.conf.all.accept_ra=0" --sysctl "net.ipv6.conf.default.accept_ra=0" --sysctl "net.ipv6.conf.all.autoconf=0" --sysctl "net.ipv6.conf.default.autoconf=0")
+fi
+
 ###############################################
 # CONTAINER TYPE
 ###############################################
