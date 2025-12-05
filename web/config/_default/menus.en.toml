@@ -38,10 +38,16 @@ weight = 1
 name = "Authors"
 pageRef = "/authors"
 identifier = "Cbv7CmM7N9"
-weight = 3
+weight = 4
 
 [[footer]]
 name = "Guides"
 pageRef = "/guides"
 identifier = "WO73i1P9Ej"
-weight = 9_999
+weight = 2
+
+[[footer]]
+name = "Theory"
+pageRef = "/theory"
+identifier = "MsX0VdeVVN"
+weight = 3
