@@ -27,8 +27,8 @@ Keep the descriptive part kebab-cased.
   - Example: `content/guides/GUIDE-docker-setup.md`
 
 ### Projects
-- File pattern: `content/projects/PROJECT-YYYY-author-shortname.md`
-  - Example: `content/projects/PROJECT-2024-ndrew-network-simulator.md`
+- File pattern: `content/projects/PROJECT-YYYY-shortname.md`
+  - Example: `content/projects/PROJECT-2024-network-simulator.md`
 
 ### Blog posts
 - File pattern: `content/blog/YYYY-MM-DD-slug.md`
@@ -66,7 +66,7 @@ content/blog/site Launch.md
 - Follow the platform front matter template and keep `title`, `date`, `authors`, `tags`, and `description` consistent.
 
 ## See also
-- [Git Workflow](/standards/standard-0005-git-worklow/) — for branches, commit and PR naming conventions
+- [Git Workflow](/standards/standard-0006-git-worklow/) — for branches, commit and PR naming conventions
 - [Topology Diagrams](/standards/standard-0004-topology-diagrams/) - for diagram export and style guidelines
 - [Asset Managment](/standards/standard-0003-asset-managment/)— for asset naming, versioning and CDN guidance
 

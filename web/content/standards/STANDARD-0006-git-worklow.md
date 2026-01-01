@@ -6,7 +6,7 @@ authors:
   - "ndrew"
 series: ["Standards"]
 tags: ["git"]
-series_order: 5
+series_order: 6
 ---
 
 ## Purpose
