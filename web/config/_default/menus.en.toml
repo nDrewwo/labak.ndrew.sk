@@ -25,12 +25,18 @@ pageRef = "/projects"
 identifier = "grgCgWXTNA"
 weight = 3
 
+[[main]]
+pre = "github"
+url = "https://github.com/nDrewwo/labak.ndrew.sk"
+identifier = "ZueUelOcBG"
+weight = 9_999
+
 [[footer]]
 none = "none"
 
 [[footer]]
 name = "Standards"
-pageRef = "/standards"
+pageRef = "/standards/standard-0001-overview/"
 identifier = "oZRFxVQNbe"
 weight = 1
 
