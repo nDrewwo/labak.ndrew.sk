@@ -36,11 +36,11 @@ This guide explains how to simulate end devices using Docker containers attached
 
 ## What it looks like in practice
 ### Logical topology (what we're simulating)
-![Logical Topology](https://storage-labak.ndrew.sk/materials/guides/end-device-sim/v1/logical-topology.svg)
+![Logical Topology](https://storage-labak.ndrew.sk/materials/guides/end-device-sim/v1/diagrams/logical-topology.svg)
 ### Physical topology (what we're wiring)
-![Physical Topology](https://storage-labak.ndrew.sk/materials/guides/end-device-sim/v1/physical-topolgy.svg)
+![Physical Topology](https://storage-labak.ndrew.sk/materials/guides/end-device-sim/v1/diagrams/physical-topolgy.svg)
 ### Real Topology (what's actually happening)
-![Real Topology](https://storage-labak.ndrew.sk/materials/guides/end-device-sim/v1/real-topology.svg)
+![Real Topology](https://storage-labak.ndrew.sk/materials/guides/end-device-sim/v1/diagrams/real-topology.svg)
 ## Example Usage
 ### Checking taken VLANs
 ```bash

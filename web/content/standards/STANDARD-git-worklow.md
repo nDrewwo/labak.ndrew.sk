@@ -17,7 +17,7 @@ Provide clear, repeatable Git practices for authors and maintainers to ensure co
 
 - **Protected branches**: `main` (production) and `staging` (optional) are protected and require PRs for changes.
 - **Feature branches**: `feature/<short-description>` — for new labs, guides or features.
-- **Fix branches**: `fix/<issue-number>` — for bug fixes and urgent fixes; merge directly to `main` when appropriate.
+- **Fix branches**: `fix/<short-description>` — for bug fixes and urgent fixes; merge directly to `main` when appropriate.
 
 Examples:
 
@@ -28,7 +28,7 @@ fix/42
 
 ## Commit message conventions
 
-- Prefix commits with the ticket or section when relevant: `[LAB-0001] Add routing exercises`.
+- Prefix commits with the ticket or section when relevant: `LAB- Add routing exercises`.
 - Use clear, imperative messages and include a short description on the first line, with details in the body when necessary.
 
 Example:
@@ -42,7 +42,7 @@ Add step-by-step commands and expected outputs so reviewers can reproduce tests 
 ## Pull Request (PR) guidelines 
 
 - Always open a PR to merge into `main` or `staging` from a feature/fix branch.
-- PR title should reference the lab/issue: `[LAB-0001] Add routing exercises`.
+- PR title should reference the lab/issue: `LAB-example-routing Add routing exercises`.
 - Include:
   - Short summary of changes
   - Testing instructions (how to run `hugo server`, expected verification steps)
@@ -66,7 +66,6 @@ Add step-by-step commands and expected outputs so reviewers can reproduce tests 
 ## Quick reference
 
 - Branches: `feature/`, `fix/`
-- Commit prefix: `[LAB-XXXX]` or `[PRJ-YYYY]`
 - Merge method: **squash-and-merge** for content
 - Tests: `hugo build`, link checks, CI linting
 
