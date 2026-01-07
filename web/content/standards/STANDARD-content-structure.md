@@ -36,11 +36,10 @@ Purpose: hands-on exercises with clear verification and teardown steps. Labs sho
 Front matter (recommended):
 
 ```yaml
-title: "LAB-0001 Static Routing"
+title: "Static Routing"
 date: 2025-11-12
 authors: ["ndrew"]
 tags: ["routing","lab"]
-series: ["Labs"]
 ```
 
 Suggested sections (order):
@@ -67,7 +66,8 @@ title: "Understanding OSPF"
 date: 2025-10-01
 authors: ["ndrew"]
 tags: ["routing","theory"]
-series: ["Theory"]
+series: ["OSPF"]
+series_order: 1
 description: "Core concepts of OSPF and when to use it"
 draft: false
 ```
@@ -122,7 +122,7 @@ description: "Short project summary for listings"
 ```
 
 Suggested sections (order):
-- **Problem Statement** — what the project explored and why it was chosen ✅
+- **Problem Statement** — what the project explored and why it was chosen
 - **Context & Motivation** — who is affected, constraints, and why it matters
 - **Audience & Prerequisites** — what the reader should know to understand the findings
 - **Approach / Process** — experiments, data sources, and methods used
@@ -134,6 +134,5 @@ Suggested sections (order):
 
 Notes:
 - Projects are primarily narrative and discovery-focused; reproduction details are optional and should be included only when they aid understanding.
-- Use `findings` and `recommendations` front matter keys to surface summaries in listings or search.
 - Link to related labs, theory pages, external repositories, and any artifacts when helpful.
 ---

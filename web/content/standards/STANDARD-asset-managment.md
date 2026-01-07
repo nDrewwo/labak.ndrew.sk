@@ -17,7 +17,7 @@ Keep assets under a versioned directory alongside content or projects; examples:
 ```
 materials/
 └── labs/
-    └── LAB-0001-static-routing/
+    └── LAB-static-routing/
         └── v1/
             └── diagrams/
                 ├── topology.drawio
@@ -39,16 +39,16 @@ materials/
 ## Examples
 Correct:
 ```
-materials/labs/LAB-0001-static-routing/v1/diagrams/topology.svg
-materials/projects/PRJ-2024-example/v2/assets/device-configs.tar.gz
+materials/labs/LAB-static-routing/v1/diagrams/topology.svg
+materials/projects/PRJ-example/v2/assets/device-configs.tar.gz
 ```
 Incorrect:
 ```
-Lab-0001/topology.svg
+Lab-static-routing/topology.svg
 topology_final (2).svg
 image 1.png
 ```
 
 ## See also
-- [Naming Convetnions](/standards/standard-0002-naming-conventions/) — for general naming rules
-- [Topology Diagrams](/standards/standard-0004-topology-diagrams/) — for diagram export and style guidelines
+- [Naming Convetnions](/standards/standard-naming-conventions/) — for general naming rules
+- [Topology Diagrams](/standards/standard-topology-diagrams/) — for diagram export and style guidelines
