@@ -1,5 +1,5 @@
 [workspace]
-name=ws1
+name=ws0
 parent_interface=eth0
 
 [vlan10]

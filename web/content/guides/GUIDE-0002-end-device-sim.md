@@ -17,8 +17,8 @@ This guide explains how to simulate end devices using Docker containers attached
 
 ## Prerequisites 
 - A Linux host with sudo access, Docker (Engine), and iproute2 installed.
-- The `workflow/ws1.ini.sample` file (or your own workspace config) describing VLANs.
-- Helper scripts located in the Git repository under `workflow/`: `create_workspace.sh`, `create_container.sh` and `cleanup_workspace.sh`.
+- Your own `.ini` config file describing your workspace.
+- Helper scripts located in the Git repository under `workflow/`: `create_workspace.sh`, `create_container.sh`, `check_workspaces` and `cleanup_workspace.sh`.
 - Container images with the tools you need (e.g., `dhcpcd` for DHCP testing, `nginx` for a web server, `dnsmasq` for DNS). The examples below use those repository scripts and common, lightweight images.
 
 ## Workflow 
@@ -39,7 +39,8 @@ This guide explains how to simulate end devices using Docker containers attached
 ![Logical Topology](https://storage-labak.ndrew.sk/materials/guides/end-device-sim/v1/logical-topology.svg)
 ### Physical topology (what we're wiring)
 ![Physical Topology](https://storage-labak.ndrew.sk/materials/guides/end-device-sim/v1/physical-topolgy.svg)
-
+### Real Topology (what's actually happening)
+![Real Topology](https://storage-labak.ndrew.sk/materials/guides/end-device-sim/v1/real-topology.svg)
 ## Example Usage
 ### Checking taken VLANs
 ```bash
@@ -92,7 +93,7 @@ gateway6=2001:db8:60::1
 ```bash
 sudo ./create_workspace.sh ws3.ini
 ```
-### Checking wether we have created the workspace correctly
+### Checking whether we have created the workspace correctly
 ```bash
 sudo ./check_workspaces.sh
 ```
