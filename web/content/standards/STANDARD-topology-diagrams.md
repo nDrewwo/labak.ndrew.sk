@@ -31,3 +31,5 @@ Example topology
 Example topology with VLANs
 ![Example Topology 3](https://storage-labak.ndrew.sk/materials/standards/topology-diagrams/v1/diagrams/example-topology-3.svg)
 Example topology with link speeds
+![Example Topology 4](https://storage-labak.ndrew.sk/materials/standards/topology-diagrams/v1/diagrams/example-topology-4.svg)
+Example three tier design topology
