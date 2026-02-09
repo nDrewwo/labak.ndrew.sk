@@ -22,6 +22,7 @@ advertisement = { }
 highlightCurrentMenuArea = true
 smartTOC = true
 defaultBackgroundImage = "background.svg"
+smartTOCHideUnfocusedChildren = true
 
 [header]
 layout = "basic"

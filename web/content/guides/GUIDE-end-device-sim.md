@@ -3,7 +3,7 @@ title: "Simulating end devices"
 date: 2026-01-07
 description: "Simulating end devices using host VLAN subinterfaces and Docker macvlan networks"
 authors:
-  - "ndrew"
+  - "ndrew" 
 tags: ["docker","bash"]
 ---
 
@@ -143,5 +143,3 @@ sudo ./cleanup_workspace.sh ws3.ini
 {{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
 Make sure to delete **your** workspace
 {{< /alert >}}
-
-
