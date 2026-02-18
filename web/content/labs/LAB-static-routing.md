@@ -38,3 +38,9 @@ R1(config-if)#ip address 192.168.1.1 255.255.255.0
 ```ciscoios
 R1(config)#ip route 192.168.2.0 255.255.255.0 10.0.0.2
 ```
+## Verifying configuration
+This lab can be tested on a simple ping between `PC1` and `PC2`.
+## Troubleshooting and common mistakes
+- You can use the `tracert` command to check where the packet travels through
+- Verify that the IP and mask configuration is correct.
+- Verify that the static routes are correct.
