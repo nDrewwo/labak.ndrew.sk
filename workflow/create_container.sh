@@ -119,18 +119,6 @@ if [ "$IPV6" = "auto" ] && [ "$DISABLE_IPV6" -eq 0 ]; then
     echo "[INFO] Assigned IPv6: $IPV6"
 fi
 
-
-###############################################
-# DHCP reminders
-###############################################
-
-if [ "$IPV4" = "dhcp" ] || [ "$IPV6" = "dhcpv6" ]; then
-    echo "[INFO] To acquire DHCP addresses inside the container, run:"
-    [ "$IPV4" = "dhcp" ] && echo "dhcpcd -4 -N eth0"
-    [ "$IPV6" = "dhcpv6" ] && echo "dhcpcd -6 -N eth0"
-fi
-
-
 ###############################################
 # CONTAINER START
 ###############################################
@@ -149,6 +137,16 @@ cmd=(
     --network "$DOCKER_NET"
     --cap-add NET_ADMIN --cap-add NET_RAW --privileged
 )
+
+###############################################
+# DHCP reminders
+###############################################
+
+if [ "$IPV4" = "dhcp" ] || [ "$IPV6" = "dhcpv6" ]; then
+    echo "[INFO] To acquire DHCP addresses inside the container, run:"
+    [ "$IPV4" = "dhcp" ] && echo "dhcpcd -4 -N eth0"
+    [ "$IPV6" = "dhcpv6" ] && echo "dhcpcd -6 -N eth0"
+fi
 
 ###############################################
 # APPLYING NONE / STATIC / DHCP CONFIG
@@ -193,13 +191,13 @@ fi
 
 case "$CONTAINER_TYPE" in
     end)
-        cmd+=(test2 sh)
+        cmd+=(labak-end)
         ;;
     web)
-        cmd+=(nginx-ip sh)
+        cmd+=(labak-web)
         ;;
     dns)
-        cmd+=(--entrypoint sh andyshinn/dnsmasq)
+        cmd+=(labak-dns)
         ;;
     *)
         echo "ERROR: Unknown container type."
