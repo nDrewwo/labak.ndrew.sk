@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Labak"
+title = "Labák"
 
 [params]
 displayName = "EN"
@@ -13,5 +13,5 @@ description = "Misterious Diviais"
 logo = "icon.png"
 
 ["params.author"]
-name = "Labak"
+name = "Labák"
 headline = "Misterious Divais"

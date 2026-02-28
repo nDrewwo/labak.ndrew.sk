@@ -18,7 +18,7 @@ This guide explains how to simulate end devices using Docker containers attached
 ## Prerequisites 
 - A Linux host with sudo access, Docker (Engine), and iproute2 installed.
 - Your own `.ini` config file describing your workspace.
-- Helper scripts located in the Git repository under `workflow/`: `create_workspace.sh`, `create_container.sh`, `check_workspaces` and `cleanup_workspace.sh`.
+- Helper scripts located in the Git repository under `workflow/`: `create_workspace.sh`, `create_container.sh`, `check_workspaces.sh` and `cleanup_workspace.sh`.
 - Container images with the tools you need (e.g., `dhcpcd` for DHCP testing, `nginx` for a web server, `dnsmasq` for DNS). The examples below use those repository scripts and common, lightweight images.
 
 ## Workflow 
